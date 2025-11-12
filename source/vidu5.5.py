@@ -1,0 +1,6 @@
+import numpy as np
+a = np.array([[1,2], [3,4], [5,6]]) # Tạo một mảng hai chiều với 3 hàng và hai cột  
+print (a [0,1,2], [0,1,0]) # In ra màn hình các phần tử ở hàng 0 cột 1 và hàng 1 cột 0
+print(np.array([a[0, 0], a[1, 1], a[2, 0]])) # In ra màn hình các phần tử ở hàng 0 cột 0, hàng 1 cột 1 và hàng 2 cột 0
+print(a[[0, 0], [1, 1]]) # ...
+print(np.array([a[0, 1], a[0, 1]])) # ...
